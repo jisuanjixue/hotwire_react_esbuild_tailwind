@@ -1,0 +1,9 @@
+<%= turbo_stream.prepend "new-users" do %>
+  <%= render @user %>
+<% end %>
+<%= turbo_stream.update "flash" do %>
+  <div class="flash-notice animate-in">
+    <div class="font-bold mb-4">Yey! This one went well...</div>
+    <div>A new user has signed up.</div>
+  </div>
+<% end %>
