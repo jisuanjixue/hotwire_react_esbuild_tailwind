@@ -111,7 +111,7 @@ GEM
       cliver (~> 0.3)
       concurrent-ruby (~> 1.1)
       websocket-driver (>= 0.6, < 0.8)
-    globalid (1.0.0)
+    globalid (1.0.1)
       activesupport (>= 5.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
@@ -131,7 +131,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.16.2)
+    minitest (5.17.0)
     msgpack (1.5.3)
     net-imap (0.2.3)
       digest
@@ -149,6 +149,8 @@ GEM
       timeout
     nio4r (2.5.8)
     nokogiri (1.13.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     overcommit (0.59.1)
@@ -254,7 +256,7 @@ GEM
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.2.0)
     warden (1.2.9)
@@ -273,6 +275,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
